@@ -85,7 +85,7 @@ public class App
     
     static void IODemo()
     {
-    	String TXT_FILE = "C:/Users/Tako/Desktop/txtFile.txt";
+    	String TXT_FILE = "C:\\Users\\maksy\\Desktop\\txtFile.txt";
     	Path textFilePath = Paths.get(TXT_FILE);
     	try {
 			Files.createFile(textFilePath);
